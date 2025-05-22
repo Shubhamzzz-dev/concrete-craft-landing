@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { Shield, Clock, Users, Construction } from "lucide-react";
+import { Shield, Clock, Users, Construction, Check } from "lucide-react";
 
 const WhyChooseUs = () => {
   const sectionRef = useRef<HTMLDivElement>(null);

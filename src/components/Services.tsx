@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { Flask, Truck, Lab, ShieldCheck } from "lucide-react";
+import { Beaker, Truck, TestTube, ShieldCheck, Check } from "lucide-react";
 
 const Services = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -29,7 +29,7 @@ const Services = () => {
   
   const services = [
     {
-      icon: <Flask className="h-10 w-10 text-blue-600" />,
+      icon: <Beaker className="h-10 w-10 text-blue-600" />,
       title: "Ready Mixed Concrete",
       description: "High-quality concrete made with Portland Cement, water, and aggregates, mixed to precise specifications for your project needs."
     },
@@ -39,7 +39,7 @@ const Services = () => {
       description: "Timely and safe delivery of Ready Mixed Concrete via our fleet of Transit Mixers, ensuring the material arrives in perfect condition."
     },
     {
-      icon: <Lab className="h-10 w-10 text-blue-600" />,
+      icon: <TestTube className="h-10 w-10 text-blue-600" />,
       title: "In-house Laboratory",
       description: "Our advanced testing facilities ensure every batch of concrete meets quality standards and project specifications."
     },
