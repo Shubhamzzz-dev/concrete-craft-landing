@@ -31,7 +31,7 @@ const AboutUs = () => {
     <section id="about" className="section-padding bg-white">
       <div className="container mx-auto container-padding">
         <div ref={sectionRef} className="animate-on-scroll">
-          <h2 className="section-title text-center">About Ruprabha Industries</h2>
+          <h2 className="section-title text-center">About Maithili Engineering</h2>
           <p className="section-subtitle text-center mx-auto">
             A leading supplier of Ready Mixed Concrete in Mumbai, serving both government and private sector projects.
           </p>
@@ -39,7 +39,7 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-2 gap-10 items-center mt-12">
             <div className="space-y-6">
               <p className="text-concrete-600">
-                Ruprabha Industries stands as a pioneer in the Ready Mixed Concrete (RMC) business, 
+                Maithili Engineering stands as a pioneer in the Ready Mixed Concrete (RMC) business, 
                 delivering superior quality materials that form the foundation of Mumbai's infrastructure. 
                 With years of expertise and a commitment to excellence, we have established ourselves 
                 as a trusted partner for construction projects of all sizes.

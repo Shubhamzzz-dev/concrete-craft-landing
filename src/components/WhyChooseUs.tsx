@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
         <div ref={sectionRef} className="animate-on-scroll">
           <h2 className="section-title text-center">Why Choose Us</h2>
           <p className="section-subtitle text-center mx-auto">
-            What sets Ruprabha Industries apart and makes us the preferred concrete supplier for major infrastructure projects.
+            What sets Maithili Engineering apart and makes us the preferred concrete supplier for major infrastructure projects.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
               <div className="bg-concrete-800 rounded-lg p-8 text-white h-full flex flex-col justify-center">
                 <h3 className="text-2xl font-bold mb-4">Setting Industry Standards</h3>
                 <p className="mb-6">
-                  At Ruprabha Industries, we don't just follow industry standards – we help set them. 
+                  At Maithili Engineering, we don't just follow industry standards – we help set them. 
                   Our commitment to quality and innovation has established us as a leader in the Ready Mixed Concrete sector.
                 </p>
                 <ul className="space-y-3">

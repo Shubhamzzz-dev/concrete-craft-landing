@@ -40,8 +40,13 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="flex items-center">
+          <img 
+            src="/lovable-uploads/f459b489-86ff-4a44-950e-193c457eb389.png" 
+            alt="Maithili Engineering Logo" 
+            className="h-10 mr-2"
+          />
           <span className="text-2xl font-bold text-blue-800">
-            Ruprabha <span className={isScrolled ? "text-orange-500" : "text-white"}>Industries</span>
+            Maithili <span className={isScrolled ? "text-orange-500" : "text-white"}>Engineering</span>
           </span>
         </a>
 

@@ -9,7 +9,14 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-6">Ruprabha Industries</h3>
+            <div className="flex items-center mb-6">
+              <img 
+                src="/lovable-uploads/f459b489-86ff-4a44-950e-193c457eb389.png" 
+                alt="Maithili Engineering Logo" 
+                className="h-10 mr-2 bg-white p-1 rounded"
+              />
+              <h3 className="text-2xl font-bold">Maithili Engineering</h3>
+            </div>
             <p className="text-concrete-300 mb-6">
               Leading supplier of Ready Mixed Concrete in Mumbai, serving both government and private sector projects with quality materials and technical expertise.
             </p>
@@ -66,8 +73,8 @@ const Footer = () => {
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 mt-1 mr-3 flex-shrink-0" />
-                <a href="mailto:info@ruprabhaindustries.com" className="text-concrete-300 hover:text-white transition">
-                  info@ruprabhaindustries.com
+                <a href="mailto:info@maithiliengineering.com" className="text-concrete-300 hover:text-white transition">
+                  info@maithiliengineering.com
                 </a>
               </li>
             </ul>
@@ -76,7 +83,7 @@ const Footer = () => {
         
         <div className="border-t border-concrete-700 mt-10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-concrete-400 mb-4 md:mb-0">
-            &copy; {currentYear} Ruprabha Industries. All rights reserved.
+            &copy; {currentYear} Maithili Engineering. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-concrete-400 hover:text-white transition text-sm">
