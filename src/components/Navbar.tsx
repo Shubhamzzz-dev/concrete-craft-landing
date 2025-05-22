@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img 
-            src="/lovable-uploads/f459b489-86ff-4a44-950e-193c457eb389.png" 
+            src="/lovable-uploads/ed2d4feb-dc50-4279-b785-053dbde7de39.png" 
             alt="Maithili Engineering Logo" 
             className="h-10 mr-2"
           />
