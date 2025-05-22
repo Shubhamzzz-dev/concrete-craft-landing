@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
 
 const Hero = () => {
+  const handleContactNavigation = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section 
       id="hero" 
@@ -29,7 +37,11 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
+          <Button 
+            size="lg" 
+            className="bg-orange-500 hover:bg-orange-600 text-white"
+            onClick={handleContactNavigation}
+          >
             <Phone className="mr-2 h-5 w-5" />
             Get a Quote
           </Button>
@@ -37,6 +49,7 @@ const Hero = () => {
             size="lg" 
             variant="outline" 
             className="border-white text-white hover:bg-white hover:text-blue-800"
+            onClick={handleContactNavigation}
           >
             <Mail className="mr-2 h-5 w-5" />
             Contact Us

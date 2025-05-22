@@ -30,6 +30,15 @@ const Navbar = () => {
     { name: 'Contact', href: '#contact' }
   ];
 
+  const handleQuoteClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+      setMobileMenuOpen(false);
+    }
+  };
+
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -66,7 +75,10 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+          <Button 
+            onClick={handleQuoteClick} 
+            className="bg-orange-500 hover:bg-orange-600 text-white"
+          >
             <Phone className="mr-2 h-4 w-4" />
             <span>Get a Quote</span>
           </Button>
@@ -105,7 +117,10 @@ const Navbar = () => {
               </li>
             ))}
             <li className="pt-4">
-              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+              <Button 
+                onClick={handleQuoteClick}
+                className="w-full bg-orange-500 hover:bg-orange-600 text-white"
+              >
                 <Phone className="mr-2 h-4 w-4" />
                 <span>Get a Quote</span>
               </Button>
